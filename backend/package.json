@@ -1,0 +1,26 @@
+{
+  "name": "fitness-planner-full-stack-project",
+  "version": "1.0.0",
+  "description": "Fitness Planner - Mern Stack",
+  "homepage": "https://github.com/BossTaco75/Fitness-Planner-Project---Mern-Stack#readme",
+  "bugs": {
+    "url": "https://github.com/BossTaco75/Fitness-Planner-Project---Mern-Stack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BossTaco75/Fitness-Planner-Project---Mern-Stack.git"
+  },
+  "author": "Eric Xiao",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
