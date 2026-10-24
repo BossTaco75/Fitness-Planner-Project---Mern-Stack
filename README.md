@@ -1,4 +1,4 @@
-# 🏋️ Fitness Planner — MERN Stack Workout Tracker
+# Fitness Planner — MERN Stack Workout Tracker
 
 A full-stack workout tracking application built with the **MERN stack**
 (MongoDB, Express, React, Node.js). Users can log workouts with a title,
@@ -10,7 +10,7 @@ Built to practice end-to-end full-stack development: designing a REST API,
 modeling data with Mongoose, and wiring up a React front end that talks to
 it in real time.
 
-## ✨ Features
+## Features
 
 - **Create workouts** — log a title, load, and reps through a validated form
 - **View all workouts** — fetched from the database, sorted newest-first
@@ -18,7 +18,7 @@ it in real time.
 - **Validation** — client-side (highlighting empty fields) and server-side
   (rejecting incomplete submissions with a clear JSON error message)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -27,7 +27,7 @@ it in real time.
 | Database | MongoDB (Atlas), Mongoose ODM |
 | Tooling | Create React App, nodemon, dotenv |
 
-## 💡 Skills Demonstrated
+## Skills Demonstrated
 
 - **Express routing & middleware** — a dedicated router mounted under
   `/api/workouts`, plus custom middleware for request logging and JSON
@@ -46,7 +46,7 @@ it in real time.
   `fetch`, Express reads/writes MongoDB via Mongoose, completing the full
   request lifecycle from UI to database and back.
 
-## 📡 API Endpoints
+## API Endpoints
 
 Base URL: `/api/workouts`
 
@@ -58,7 +58,7 @@ Base URL: `/api/workouts`
 | `PATCH` | `/api/workouts/:id` | Update an existing workout |
 | `DELETE` | `/api/workouts/:id` | Delete a workout by ID |
 
-## 🚀 Running Locally
+## Running Locally
 
 **Prerequisites:** Node.js, npm, and a MongoDB connection string (e.g. a
 free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster).
@@ -92,7 +92,7 @@ The React app runs on `http://localhost:3000` and proxies API requests to
 Express on `http://localhost:4000` (via the `proxy` field in
 `frontend/package.json`).
 
-## 🔭 Future Improvements
+## Future Improvements
 
 - User authentication (sign up / log in, per-user workout data)
 - Automated tests for API routes and React components
