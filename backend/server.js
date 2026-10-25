@@ -5,6 +5,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
 const workoutRoutes = require('./routes/workouts');
+const userRoutes = require('./routes/user')
 
 const server = express();
 
@@ -18,6 +19,8 @@ server.use((req, res, next) => {
 //Route to workouts routes
 server.use('/api/workouts', workoutRoutes);
 
+//Router to user routes
+server.use('/api/user', userRoutes)
 
 //Connect to DB then listens for requests
 mongoose.connect(process.env.DBURL)

@@ -115,3 +115,29 @@ div.error {
 input.error {
   border: 1px solid var(--error);
 }
+
+form.signup,
+form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a,
+nav button {
+  margin-left: 10px;
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
